@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+body {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "SF Pro Text", "蘋方-繁", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 996px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+.header__title {
+  font-size: 80px;
+  line-height: 95px;
+  font-weight: 400;
+  padding-bottom: 24px;
+  margin-bottom: 48px;
+  border-bottom: 2px solid #000;
+}
+
+.profile__title, .education__title, .skills__title, .experience__title, .contact__title {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #000;
+}
+.profile__title span, .education__title span, .skills__title span, .experience__title span, .contact__title span {
+  color: #A00404;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.skills__title, .contact__title {
+  color: white;
+  border-bottom: 1px solid white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.skills__title span, .contact__title span {
+  color: white;
+}
+
+.profile, .education {
+  margin-bottom: 72px;
+}
+.profile__list, .education__list {
+  font-weight: 300;
+}
+.profile__list:not(:last-child), .education__list:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.education__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.skills {
+  color: white;
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 52px;
+  margin-bottom: 72px;
+}
+.skills__title {
+  margin-bottom: 40px;
+}
+.skills__wrap {
+  text-align: center;
+}
+.skills__list {
+  font-weight: 300;
+  display: inline-block;
+  text-align: left;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+.skills__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin-bottom: 72px;
+}
+.experience__list {
+  padding-left: 24px;
+  margin-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+.experience__item h3 {
+  font-weight: 700;
+}
+.experience__item p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.experience__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.footer {
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+}
+.contact__title {
+  margin-bottom: 32px;
+}
+.contact__list {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.contact__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.contact__link {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.contact__link:hover {
+  color: blue;
+}
+.contact .social__list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 24px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
