@@ -1,0 +1,38 @@
+
+.footer {
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+
+  &__list {
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+
+  &__item:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+    &:hover {
+      color: blue;
+    }
+  }
+
+  .social__list {
+    display: inline-flex;
+    gap: 24px;
+  }
+}

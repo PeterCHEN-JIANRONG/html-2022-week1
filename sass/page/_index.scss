@@ -1,0 +1,98 @@
+// title 樣式
+.profile,.education,.skills,.experience,.contact {
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #000;
+    span {
+      color: #A00404;
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 16px;
+    }
+  }
+}
+
+.skills,.contact {
+  &__title {
+    color: white;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    span {
+      color: white;
+    }
+  }
+}
+
+.profile,.education {
+  margin-bottom: 64px;
+  &__list {
+    font-weight: 300;
+  }
+  &__list:not(:last-child) {
+    margin-bottom: 24px;
+  } 
+}
+
+.education {
+  &__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.skills {
+  color: white;
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 52px;
+  margin-bottom: 72px;
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__wrap {
+    text-align: center;
+  }
+
+  &__list {
+    font-weight: 300;
+    display: inline-block;
+    text-align: left;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+}
+
+.experience {
+  margin-bottom: 72px;
+
+  &__list {
+    padding-left: 24px;
+    margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+  }
+
+  &__item {
+    h3 {
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+  &__item:not(:last-child){
+    margin-bottom: 24px;
+  }
+}

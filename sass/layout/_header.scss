@@ -1,0 +1,13 @@
+.header {
+  padding-top: 40px;
+  padding-bottom: 48px;
+
+  &__title {
+    font-size: 80px;
+    line-height: 95px;
+    font-weight: 400;
+    padding-bottom: 22px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid #000;
+  }
+}
