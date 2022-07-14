@@ -180,7 +180,7 @@ body {
   background: #415165;
   padding-top: 24px;
   padding-bottom: 52px;
-  margin-bottom: 72px;
+  margin-bottom: 64px;
 }
 .skills__title {
   margin-bottom: 40px;
@@ -200,7 +200,7 @@ body {
 }
 
 .experience {
-  margin-bottom: 72px;
+  margin-bottom: 64px;
 }
 .experience__list {
   padding-left: 24px;
